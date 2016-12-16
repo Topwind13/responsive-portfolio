@@ -1,0 +1,56 @@
+.container, .header__inner, .featured {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 650px) {
+
+  .header__logo {
+    width: 30%;
+    margin: auto 0;
+    text-align: left;
+    line-height: 75px;
+  }
+
+  .logo {
+    height: 75px;
+    width: auto;
+    margin-top:1em;
+    margin-left: 1em;
+  }
+
+  .header__title__box {
+    width: 70%;
+  }
+
+  .header__title {
+    text-align: right;
+    margin: auto 1em 0 auto;
+  }
+
+  .header__subtitle {
+    text-align: right;
+    margin-right: 1em;
+  }
+
+  /*************/
+  .feature-title {
+    width: 100%;
+    text-align: left;
+    margin-left: 0.5em;
+  }
+
+  .project {
+    width: calc((100% - 3em)/3);
+    margin: 1em 1.5em auto 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .last {
+    margin-right: 0;
+  }
+
+}

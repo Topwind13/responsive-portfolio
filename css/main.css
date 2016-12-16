@@ -1,0 +1,95 @@
+body {
+  margin: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+/*********/
+
+.header__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  border-bottom: 3px solid #7d97ad;
+}
+
+.header__logo {
+  height: 100px;
+  margin: 2em auto;
+  width: 100%;
+}
+
+.header__title__box {
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.header__title {
+  font-weight: 100;
+  font-size: 3em;
+  margin: auto;
+  width: 100%;
+}
+
+.header__subtitle {
+  font-size: 1em;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+/*******/
+
+.container {
+  margin: 2em auto;
+  max-width: 800px;
+}
+
+.featured {
+  width: 100%;
+  margin: 2em auto;
+  font-size: 1.5em;
+}
+
+.hero {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.project {
+  width: 100%;
+  margin: 2em auto;
+}
+
+.feature-title {
+  font-weight: 300;
+  -webkit-margin-after: 0.25em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #7d97ad;
+  text-align: center;
+  letter-spacing: 0.0625em;
+}
+
+.project-name {
+  text-transform: uppercase;
+
+  margin: 1em auto 0.25em auto;
+}
+
+.project-link {
+  margin: 0 auto 1em auto;
+  max-width: 100%;
+  display: inline-block;
+}
